@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxy F7 - الصفحة الشخصية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Foxy F7's Personal Website</h1>
+    </header>
+    <main>
+        <div class="content">
+            <h2>مرحبًا بك في موقعي الشخصي!</h2>
+            <p>أنا Foxy F7 وهذا هو موقعي الشخصي الذي أنشأته لعرض أعمالي ومشاريعي ومشاركة أفكاري معكم.</p>
+            <p>لا تتردد في الاطلاع على محتواي والتواصل معي عبر قناتي على <a href="https://www.youtube.com/yourchannel" target="_blank">YouTube</a> أو خادمي على <a href="https://discord.gg/yourserver" target="_blank">Discord</a>.</p>
+        </div>
+    </main>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024 Foxy F7</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #00f;
+}
+
+a {
+    color: #00f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+}

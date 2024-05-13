@@ -1,1 +1,1 @@
-# Foxy.github.io
+# Foxy
